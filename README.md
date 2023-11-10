@@ -1,5 +1,5 @@
 # Diabetic Retinopathy (DR) Classifiers
-This repository contains the implementation of a machine learning approach for classifying metabolomic data from tears into healthy control (HC) and diabetic retinopathy (DR) groups.
+This repository hosts the execution of a machine-learning methodology used for categorizing metabolomic data obtained from tears. It differentiates between patients with diabetes mellitus who have diabetic retinopathy (DR) and those without DR.
 
 ## Introduction
 Diabetic retinopathy is a common complication of diabetes that affects the blood vessels in the retina. Early detection and classification of DR are crucial for timely intervention and treatment. Metabolomic data from tear samples have shown promise in providing valuable insights for DR diagnosis.
@@ -14,6 +14,6 @@ The machine learning approach implemented in this project aims to classify tear 
 
 2. Feature Selection: Relevant features are selected from the dataset to reduce dimensionality and improve classification performance. Various feature selection techniques can be used, such as statistical tests, correlation analysis, or feature importance ranking.
 
-3. Model Training: Machine learning models, such as logistic regression, support vector machines, or random forests, are trained on the preprocessed and selected features. The models learn from the data to classify tear samples into HC or DR groups.
+3. Model Training: Machine learning models, such as logistic regression, support vector machines, or random forests, are trained on the preprocessed and selected features. The models learn from the data to classify tear samples into No DR or DR groups.
 
 4. Model Evaluation: The trained models are evaluated on a separate test set to assess their performance. Metrics such as accuracy, precision, recall, and F1-score are calculated to measure the effectiveness of the classifiers.
